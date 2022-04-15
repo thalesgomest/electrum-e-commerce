@@ -1,33 +1,170 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!-- ? Fonts -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
-            rel="stylesheet"
-        />
-        <!-- ? Icons Font Awesome -->
-        <script
-            src="https://kit.fontawesome.com/d345f07264.js"
-            crossorigin="anonymous"
-        ></script>
-        <!-- ? CSS Link -->
-        <link rel="stylesheet" href="css/reset.css" />
-        <link rel="stylesheet" href="css/app.css" />
-        <!-- ! Favicon -->
-        <link
-            rel="icon"
-            type="image/x-icon"
-            href="./assets/images/favicon.ico"
-        />
-        <title>Electrum e-commerce</title>
-    </head>
-    <body>
-        <script src="scripts.js"></script>
-    </body>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- ? Fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+		rel="stylesheet" />
+	<!-- ? CSS Link -->
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/app.css" />
+	<!-- ? Icons Font Awesome -->
+	<script src="https://kit.fontawesome.com/d345f07264.js" crossorigin="anonymous"></script>
+	<!-- ! Favicon -->
+	<link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+	<title>Electrum e-commerce</title>
+</head>
+
+<body>
+	<!-- ! Header -->
+	<header class="header">
+		<div class="header__top">
+			<div class="header__top--container">
+				<div class="store-info-container"></div>
+				<span><i class="fas fa-phone"></i>(99) 99999-9999</span>
+				<span><i class="far fa-envelope"></i>electrum@email.com</span>
+				<span><i class="fas fa-map-marker-alt"></i>Rua Teste,1234</span>
+			</div>
+			<div class="header__top--user-menu">
+				<span><i class="fas fa-dollar sign"></i><a href="#">BRL</a></span>
+				<span><i class="fas fa-user"></i><a href="#">Minha Conta</a></span>
+			</div>
+		</div>
+		<div class="header__main">
+			<div class="header__main--container">
+				<a href="#">Electrum <i class="fas fa-bolt"></i></a>
+				<form action="" id="search-form">
+					<input type="text" id="search" placeholder="Busque aqui" />
+					<input type="submit" class="btn btn-half" value="Pesquisar" />
+				</form>
+				<div class="header__actions-menu">
+					<div class="wishlist-container">
+						<span class="qtd">0</span>
+						<i class="far fa-heart"></i>
+						<a href="#">Favoritos</a>
+					</div>
+					<div class="header-cart-container">
+						<span class="qtd">0</span>
+						<i class="fas fa-shopping-cart"></i>
+						<a href="#">Carrinho</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header__bottom">
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Promoçoes</a></li>
+					<li><a href="#">Notebooks</a></li>
+					<li><a href="#">Celulares </a></li>
+					<li><a href="#">Câmeras</a></li>
+					<li><a href="#">Acessórios</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!-- ! Banners -->
+	<div class="banners">
+		<!--? HTML with Javascript -->
+	</div>
+	<!-- ! Products -->
+	<div class="products-grid">
+		<h2>Produtos Novos</h2>
+		<div class="products-grid-container">
+			<!-- ? HTML with Javascript -->
+		</div>
+	</div>
+	<!-- ! Deal -->
+	<div class="deal-container">
+		<div class="deal-container__content">
+			<div class="deal-container__content--timer">
+				<!-- ? HTML with Javascript -->
+			</div>
+			<h2 class="deal-container__content--title">Promoção de Fone Gamer</h2>
+			<p class="deal-container__content--subtitle">Toda linha gamer com 50% de desconto</p>
+			<button class="btn">Comprar Agora</button>
+		</div>
+	</div>
+	<!-- ! Mais Vendidos -->
+	<div class="products-grid">
+		<h2>Mais Vendidos</h2>
+		<div class="products-grid-container__best-sellers">
+			<!-- ? HTML with Javascript -->
+		</div>
+	</div>
+	<!-- ! Newsletter -->
+	<div class="newsletter-container">
+		<h2>Assine a nossas <span>Newsletter</span></h2>
+		<form action="">
+			<input type="email" name="email" id="email" placeholder="Digite o seu e-mail">
+			<input type="submit" class="btn btn-half" value="Assinar">
+		</form>
+	</div>
+	<!-- ! Footer -->
+	<footer class="footer">
+		<div class="footer-top">
+			<div class="footer-top__about">
+				<h3>Sobre Nós</h3>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. In error sint a corrupti corporis
+					perspiciatis, non culpa beatae rem, ad adipisci nulla libero eum accusantium optio quaerat quos
+					facilis facere?
+				</p>
+				<p><i class="fa fa-location-arrow"></i> <a href="#">Rua Teste, 1234</a></p>
+				<p><i class="fa fa-phone"></i> <a href="#">(99) 99999-9999</a></p>
+				<p><i class="fa fa-envelope"></i> <a href="#">electrum@email.com</a></p>
+			</div>
+			<div class="footer-top__categories">
+				<h3>Categorias</h3>
+				<ul>
+					<li><a href="#">Promoções</a></li>
+					<li><a href="#">Headsets</a></li>
+					<li><a href="#">PC Gamer</a></li>
+					<li><a href="#">Câmeras</a></li>
+					<li><a href="#">Mouse e Teclado</a></li>
+				</ul>
+			</div>
+			<div class="footer-top__information">
+				<h3>Informações</h3>
+				<ul>
+					<li><a href="#">Sobre Nós</a></li>
+					<li><a href="#">Entre em contato</a></li>
+					<li><a href="#">Política de privacidade</a></li>
+					<li><a href="#">Pedidos e devoluções</a></li>
+					<li><a href="#">Termos e Condições</a></li>
+				</ul>
+			</div>
+			<div class="footer-top__menu">
+				<h3>Menu</h3>
+				<ul>
+					<li><a href="#">Minha Conta</a></li>
+					<li><a href="#">Carrinho</a></li>
+					<li><a href="#">Listra de desejos</a></li>
+					<li><a href="#">Rastrear pedidos</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="footer-bottom_payments">
+				<i class="fab fa-cc-mastercard"></i>
+				<i class="fab fa-cc-visa"></i>
+				<i class="fab fa-cc-diners-club"></i>
+				<i class="fab fa-cc-amazon-pay"></i>
+				<i class="fab fa-cc-apple-pay"></i>
+			</div>
+			<p>Copyright &copy; 2022 - Electrum</p>
+		</div>
+	</footer>
+
+	<script src=" scripts.js">
+	</script>
+</body>
+
 </html>

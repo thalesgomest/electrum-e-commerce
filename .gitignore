@@ -1,0 +1,8 @@
+# dependencies
+/node_modules
+
+# formatters config
+.editorconfig
+
+# others
+projeto2-sass-electrum.wakatime-project

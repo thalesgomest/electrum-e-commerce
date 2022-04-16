@@ -7,6 +7,10 @@
 
 	&__top
 		background-color: variables.$seconday-bg-color
+		color: variables.$light-color
+
+		@include base-mixins.mobile
+			display: none
 
 		&--container
 			@include layouts-mixins.center-content
@@ -26,6 +30,11 @@
 			@include layouts-mixins.center-content
 			padding: 1.3rem 0
 
+			@include base-mixins.mobile
+				flex-direction: column
+				align-items: center
+
+
 			a, span, i
 				color: variables.$light-color
 
@@ -43,6 +52,10 @@
 				justify-content: center
 				width: 45%
 
+				@include base-mixins.mobile
+					width: 100%
+					margin: 2rem 0
+
 				input
 					height: 40px
 
@@ -57,6 +70,9 @@
 				.wishlist-container, .header-cart-container
 					@include layouts-mixins.header-icon
 
+					@include base-mixins.mobile
+						margin: 1rem
+
 	&__bottom
 		background-color: variables.$light-color
 		border-bottom: 2px solid variables.$section-bg-color
@@ -66,6 +82,9 @@
 			@include layouts-mixins.center-content
 			justify-content: left
 			padding: 1rem 0
+
+			@include base-mixins.mobile
+				display: none
 
 			li
 				margin-right: 1.3rem

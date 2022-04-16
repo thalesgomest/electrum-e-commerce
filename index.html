@@ -12,7 +12,6 @@
 		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
 		rel="stylesheet" />
 	<!-- ? CSS Link -->
-	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/app.css" />
 	<!-- ? Icons Font Awesome -->
 	<script src="https://kit.fontawesome.com/d345f07264.js" crossorigin="anonymous"></script>
@@ -26,19 +25,20 @@
 	<header class="header">
 		<div class="header__top">
 			<div class="header__top--container">
-				<div class="store-info-container"></div>
-				<span><i class="fas fa-phone"></i>(99) 99999-9999</span>
-				<span><i class="far fa-envelope"></i>electrum@email.com</span>
-				<span><i class="fas fa-map-marker-alt"></i>Rua Teste,1234</span>
-			</div>
-			<div class="header__top--user-menu">
-				<span><i class="fas fa-dollar sign"></i><a href="#">BRL</a></span>
-				<span><i class="fas fa-user"></i><a href="#">Minha Conta</a></span>
+				<div class="store-info-container">
+					<span><i class="fas fa-phone"></i><a href="#">(99) 99999-9999</a></span>
+					<span><i class="far fa-envelope"></i> <a href="#">electrum@email.com</a></span>
+					<span><i class="fas fa-map-marker-alt"></i> <a href="#">Rua Teste,1234</a></span>
+				</div>
+				<div class="header__top--user-menu">
+					<span><i class="fas fa-dollar sign"></i><a href="#">BRL</a></span>
+					<span><i class="fas fa-user"></i><a href="#">Minha Conta</a></span>
+				</div>
 			</div>
 		</div>
 		<div class="header__main">
 			<div class="header__main--container">
-				<a href="#">Electrum <i class="fas fa-bolt"></i></a>
+				<a href="#" id='brand'>Electrum <i class="fa-solid fa-bolt-lightning"></i></a>
 				<form action="" id="search-form">
 					<input type="text" id="search" placeholder="Busque aqui" />
 					<input type="submit" class="btn btn-half" value="Pesquisar" />

@@ -23,21 +23,21 @@ const banners = () => {
 
 const products = () => {
 	const productsData = {
-		names: ['Notebook', 'CPU', 'Headset', 'Nome'],
+		names: ['Monitor', 'Microfone HyperX', 'Televisor LCD', 'Gabinete'],
 		images: [
 			'/assets/images/prod-1.jpg',
 			'/assets/images/prod-2.jpg',
 			'/assets/images/prod-3.jpg',
 			'/assets/images/prod-4.jpg',
 		],
-		prices: ['R$124,90', 'R$124,90', 'R$99', 'R$124,90'],
+		prices: ['R$1250', 'R$850', 'R$999,90', 'R$489,90'],
 		ratings: {
 			prod1: [
 				'fas fa-star',
 				'fas fa-star',
 				'fas fa-star',
 				'fas fa-star',
-				'far fa-star',
+				'fas fa-star',
 			],
 			prod2: [
 				'fas fa-star',
@@ -94,14 +94,19 @@ const products = () => {
 
 const productsBestSellers = () => {
 	const productsData = {
-		names: ['Notebook', 'CPU', 'Headset', 'Nome'],
+		names: [
+			'Controle Xbox sem fio',
+			'Samsung Galaxy A50 128GB ',
+			'ACER Notebook Gamer Nitro 5',
+			'Mouse Gamer Redragon',
+		],
 		images: [
 			'/assets/images/prod-5.jpg',
 			'/assets/images/prod-6.jpg',
 			'/assets/images/prod-7.jpg',
 			'/assets/images/prod-8.jpg',
 		],
-		prices: ['R$124,90', 'R$124,90', 'R$99', 'R$124,90'],
+		prices: ['R$329,90', 'R$1899,90', 'R$2459,90', 'R$124,90'],
 		ratings: {
 			prod1: [
 				'fas fa-star',
@@ -121,7 +126,7 @@ const productsBestSellers = () => {
 				'fas fa-star',
 				'fas fa-star',
 				'fas fa-star',
-				'far fa-star',
+				'fas fa-star',
 				'far fa-star',
 			],
 			prod4: [
